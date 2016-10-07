@@ -1,6 +1,6 @@
 #Express Project Generator
 ##MVC, Handlebars, Grunt, Sass, MongoDb and based on HTML5 Boilerplate Optimizations
-###Grunt-wiredep ready
+###Grunt-wiredep ready and MongoDb ready
 
 This is the same **Yeoman Generator-Express MVC** choosing the option above.
 
@@ -18,3 +18,12 @@ I also have added the **HTML5 Boilerplate** codes/files https://html5boilerplate
 - and its Node.js server configs https://github.com/h5bp/server-configs-node.
 
 To see in the browser: run `gulp` and open `localhost:3000`
+
+If you want to connect to your local MongoDb, uncomment the folloeing block in `app.js`
+
+```javascript
+mongoose.connect(config.db);
+var db = mongoose.connection;
+db.on('error', function () {
+  throw new Error('unable to connect to database at ' + config.db);
+});
