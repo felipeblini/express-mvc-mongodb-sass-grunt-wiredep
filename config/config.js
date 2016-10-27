@@ -8,7 +8,7 @@ var config = {
     app: {
       name: 'express-grunt-wiredep'
     },
-    port: 3000,
+    port: process.env.PORT || 3000,
     db: 'mongodb://localhost/express-grunt-wiredep-development'
   },
 
@@ -17,7 +17,7 @@ var config = {
     app: {
       name: 'express-grunt-wiredep'
     },
-    port: 3000,
+    port: process.env.PORT || 3000,
     db: 'mongodb://localhost/express-grunt-wiredep-test'
   },
 
@@ -26,7 +26,7 @@ var config = {
     app: {
       name: 'express-grunt-wiredep'
     },
-    port: 3000,
+    port: process.env.PORT || 3000,
     db: 'mongodb://localhost/express-grunt-wiredep-production'
   }
 };
