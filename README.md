@@ -17,7 +17,7 @@ I also have added the **HTML5 Boilerplate** codes/files https://html5boilerplate
 - Browser and Crossdomain xml's
 - and its Node.js server configs https://github.com/h5bp/server-configs-node.
 
-To see in the browser: run `gulp` and open `localhost:3000`
+To see in the browser: run `grunt` and open `localhost:3000`
 
 If you want to connect to your local MongoDb, uncomment the folloeing block in `app.js`
 
