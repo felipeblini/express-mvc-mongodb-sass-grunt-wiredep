@@ -6,28 +6,28 @@ var config = {
   development: {
     root: rootPath,
     app: {
-      name: 'superacaorosa-express-grunt'
+      name: 'express-grunt-wiredep'
     },
     port: 3000,
-    db: 'mongodb://localhost/superacaorosa-express-grunt-development'
+    db: 'mongodb://localhost/express-grunt-wiredep-development'
   },
 
   test: {
     root: rootPath,
     app: {
-      name: 'superacaorosa-express-grunt'
+      name: 'express-grunt-wiredep'
     },
     port: 3000,
-    db: 'mongodb://localhost/superacaorosa-express-grunt-test'
+    db: 'mongodb://localhost/express-grunt-wiredep-test'
   },
 
   production: {
     root: rootPath,
     app: {
-      name: 'superacaorosa-express-grunt'
+      name: 'express-grunt-wiredep'
     },
     port: 3000,
-    db: 'mongodb://localhost/superacaorosa-express-grunt-production'
+    db: 'mongodb://localhost/express-grunt-wiredep-production'
   }
 };
 

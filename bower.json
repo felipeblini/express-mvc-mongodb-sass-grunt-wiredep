@@ -1,5 +1,5 @@
 {
-  "name": "superacaorosa-express-grunt",
+  "name": "express-grunt-wiredep",
   "version": "0.0.1",
   "ignore": [
     "**/.*",
